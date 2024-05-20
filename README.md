@@ -3,7 +3,7 @@
 This is a demo project for learning Spring Boot MVC. It is designed for absolute beginners to understand the basics of Spring Boot, MVC architecture, and how to create a simple CRUD application.
 
 ## Project Structure
-
+```
 Learning-Spring-boot-MVC/
 ├── src/
 │ ├── main/
@@ -52,7 +52,7 @@ Learning-Spring-boot-MVC/
 │ ├── mvnw.cmd
 │ └── pom.xml
 └── README.md
-
+```
 
 ## Dependencies
 
@@ -173,5 +173,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or feedback, please contact [your-email@example.com].
+For any questions or feedback, please contact [shafiqur.me@gmail.com].
 
