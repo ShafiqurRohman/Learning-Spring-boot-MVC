@@ -41,7 +41,7 @@ public class AutoMapper {
                 .build();
         return clubDto;
     }
-    private Club mapToClub(ClubDto clubDto) {
+    public static Club mapToClub(ClubDto clubDto) {
         Club club = Club.builder()
                 .id(clubDto.getId())
                 .title(clubDto.getTitle())
