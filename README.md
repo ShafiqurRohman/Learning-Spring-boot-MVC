@@ -110,7 +110,7 @@ The project uses the following dependencies:
 
 5. **Access the application:**
 
-    Open your browser and go to `http://localhost:8080/users`.
+    Open your browser and go to `http://localhost:8081/users`.
 
 ## Project Components
 
@@ -149,7 +149,7 @@ The project uses the following dependencies:
 ## API Documentation
 
 This project uses Springdoc OpenAPI for API documentation. You can access the API documentation at:
-http://localhost:8080/swagger-ui.html
+http://localhost:8081/swagger-ui.html
 
 
 ## License
