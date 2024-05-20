@@ -30,4 +30,26 @@ public class AutoMapper {
                 .build();
         return  user;
     }
+    public static ClubDto mapToClubDto(Club club) {
+        ClubDto clubDto = ClubDto.builder()
+                .id(club.getId())
+                .title(club.getTitle())
+                .photoUrl(club.getPhotoUrl())
+                .content(club.getContent())
+                .createdOn(club.getCreatedOn())
+                .updatedOn(club.getUpdatedOn())
+                .build();
+        return clubDto;
+    }
+    private Club mapToClub(ClubDto clubDto) {
+        Club club = Club.builder()
+                .id(clubDto.getId())
+                .title(clubDto.getTitle())
+                .photoUrl(clubDto.getPhotoUrl())
+                .content(clubDto.getContent())
+                .createdOn(clubDto.getCreatedOn())
+                .updatedOn(clubDto.getUpdatedOn())
+                .build();
+        return  club;
+    }
 }
